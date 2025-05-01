@@ -122,7 +122,7 @@ export async function POST({ request, locals: { user }, cookies }) {
 					});
 				},
 				experimental_telemetry: {
-					isEnabled: true,
+					isEnabled: false,
 					functionId: 'stream-text'
 				}
 			});

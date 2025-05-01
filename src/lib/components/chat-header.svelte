@@ -58,7 +58,7 @@
 		<VisibilitySelector {chat} class="order-1 md:order-3" />
 	{/if}
 
-	{#if !user}
+	<!-- {#if !user}
 		<Button href="/signin" class="order-5 px-2 py-1.5 md:h-[34px]">Sign In</Button>
 	{/if}
 
@@ -69,5 +69,5 @@
 	>
 		<VercelIcon size={16} />
 		Deploy with Vercel
-	</Button>
+	</Button> -->
 </header>
